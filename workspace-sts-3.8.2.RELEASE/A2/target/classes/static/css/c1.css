@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+
+
+@font-face {
+   font-family: TitleText;
+   src: url('MarioLuigi2.ttf') format("opentype");
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/sawarabimincho.css);
+.e1 { font-family: "Sawarabi Mincho"; }

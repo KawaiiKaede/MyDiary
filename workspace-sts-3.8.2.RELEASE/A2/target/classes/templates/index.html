@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"> 
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="/js/jquery-3.1.1.min.js" th:src="@{/js/jquery-3.1.1.min.js}"></script>
+<script type="text/javascript" src="/js/foundation.min.js" th:src="@{/js/foundation.min.js}"></script>
+<link href="/css/foundation.min.css" th:href="@{/css/foundation.min.css}" rel="stylesheet"/>
+<link href="/css/foundation-icons.icons.css" th:href="@{/css/foundation-icons.css}" rel="stylesheet"/>
+<link href="/css/c1.css" th:href="@{/css/c1.css}" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+<script type="text/javascript" src="/js/d1.js" th:src="@{/js/d1.js}"></script>
+<title>Hello Page</title>
+</head>
+
+<body>
+	
+	<nav class="top-bar" style="background-color: #666;width : 100%; height: 40px;">	
+			<div class="columns large-4">
+				<span style="font-size : 27px; color : #FFFFFF; font-family: TitleText; position: relative; bottom: 6px;">welcome</span>
+			</div>
+			<div style="text-align: center;" class="columns large-5">
+				<div style="text-align: center; padding-left: 30px;padding-right: 0px;padding-left: 1.938rem;" class="columns large-4 large-offset-5">
+					<a href="#">
+	      				<span style="font-size : 15px; color : #FFFFFF; font-family: TitleText; position: relative; padding: 4px 10px 4px 10px;">Sine Up</span>
+					</a>
+	 			</div>
+				<div style="text-align: center;padding-right: 0px;padding-right: 0px;padding-left: 0px;" class="columns large-3">
+					<a href="#">
+	      				<span style="font-size : 15px; color : #FFFFFF; font-family: TitleText;  border: 1px solid #FFFFFF; padding: 4px 10px 4px 10px;">Log In</span>
+					</a>
+	 			</div>
+			</div>
+			<div class="columns large-3" style="/*! float: right; */">		
+				<input style="height: 26px; margin: 0px; padding : 5px; float : left; width : 180px" type="text" />
+					<a href="#">
+						<i class="fi-magnifying-glass" style="font-size: 29px;padding: 5px;position: relative;bottom: 8px;color: #ffffff;"></i>
+					</a>		
+        	</div>
+	</nav>
+	<div class="row e1" style="padding: 10px;">
+		<div class="row" style="margin-top: 80px;">
+			<div class="columns large-5">
+				<h1 style="font-size: 46px;">週末に出かけよう</h1>
+			</div>
+		</div>
+		<form method="post" action="/" style="margin-bottom: 80px;">
+			<div class="row">				
+				<div class="column large-4">
+					<input style="border-radius: 3px;" type="text" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="column large-4">
+					<input style="border-radius: 3px;" type="text" />
+				</div>
+			</div>
+	    	<div class="row">
+				<div class="column large-4">
+					<a href="#" class="button radius" style="width: 100%;border-radius: 3px;">Log In</a>
+				</div>
+			</div>
+    	</form> 	
+    </div>    
+    <div class="row e1" style="border-top : 1px solid #e8ebe9; border-bottom: 1px solid #e8ebe9;">
+    	<div class="column large-4">
+    		<i class="fi-torsos-all" style="font-size: 72px;"></i>
+    		<h2 style="font-size: 24px;">イベントに参加する</h2>
+    		<p>説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文</p>
+    	</div>
+   		<div class="column large-4">
+   			<i class="fi-tablet-portrait" style="font-size: 72px;"></i>
+    		<h2 style="font-size: 24px;">アプリで遊ぶ</h2>
+    		<p>説明文</p>
+    	</div>
+   		<div class="column large-4">
+   			<i class="fi-map" style="font-size: 72px;"></i>
+    		<h2 style="font-size: 24px;">聖地を見に行く</h2>
+    		<p>説明文</p>
+    	</div>	
+    </div>
+    <div class = "row">
+    	<div class = "column large-4">
+    	<a href = "#"><img src = "/img/images.jpg" width="105" height="105" /></a>
+    	<h2 style="font-size: 24px;">アプリで遊ぶ</h2>
+    		<p>説明文</p>
+    	</div>
+    	<div class = "column large-4">
+    	<a href = "#"><img src = "/img/images.jpg" width="105" height="105" /></a>
+    	<h2 style="font-size: 24px;">アプリで遊ぶ</h2>
+    		<p>説明文</p>
+    	</div>
+    	<div class = "column large-4">
+    	<a href = "#"><img src = "/img/images.jpg" width="105" height="105" /></a>
+    	<h2 style="font-size: 24px;">アプリで遊ぶ</h2>
+    		<p>説明文</p>
+    	</div>   	
+    </div>
+    <div class = "row">
+    	<div class="column large-6"></div>
+    	<div class="column large-6"></div>
+    </div>
+    <footer style="background-color : #666;width : 100%; height: 40px; position: absolute; bottom : 0;">
+    </footer>
+    
+</body>
+
+</html>
