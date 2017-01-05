@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_45 (Oracle Corporation)
+
+Name: STS.exe
+SHA-256-Digest: LmeJy73C1kPU+1E40iLEu/Q2rpG/js2BFSXAJJtje0w=
+
+Name: eclipsec.exe
+SHA-256-Digest: cT9tLawezw0KZkQYy5U00LvzATdfdYdTzZPUxCkB5sg=
+

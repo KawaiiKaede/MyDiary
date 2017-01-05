@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\Users\y.shoma\Desktop\sts-bundle\sts-3.8.2.RELEASE\.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1481688642625'/>
+    <property name='org.eclipse.update.site.policy' value='USER-EXCLUDE'/>
+    <property name='org.eclipse.update.site.list' value=''/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='2'>
+    <artifact classifier='osgi.bundle' id='jp.sourceforge.mergedoc.pleiades' version='1.7.11'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/y.shoma/Desktop/sts-bundle/sts-3.8.2.RELEASE/plugins/jp.sourceforge.mergedoc.pleiades/'/>
+        <property name='file.name' value='C:\Users\y.shoma\Desktop\sts-bundle\sts-3.8.2.RELEASE\plugins\jp.sourceforge.mergedoc.pleiades'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='jp.sourceforge.mergedoc.pleiades' version='1.7.11'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/y.shoma/Desktop/sts-bundle/sts-3.8.2.RELEASE/features/jp.sourceforge.mergedoc.pleiades/'/>
+        <property name='file.name' value='C:\Users\y.shoma\Desktop\sts-bundle\sts-3.8.2.RELEASE\features\jp.sourceforge.mergedoc.pleiades'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

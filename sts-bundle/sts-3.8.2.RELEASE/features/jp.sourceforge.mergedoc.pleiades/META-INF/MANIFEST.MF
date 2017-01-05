@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.6
+Created-By: 1.8.0_102-b14 (Oracle Corporation)
+
+Name: pleiades.png
+SHA-256-Digest: kJgn/g0Z6xAavEcbEtF2A1j4uiE6lDHV0Wp+6Kh9vms=
+
+Name: feature.xml
+SHA-256-Digest: gkzLS/vbNzA1fEttt6WHa0lKm4ExjZ9VIUNrfz+NnjQ=
+
+Name: feature.properties
+SHA-256-Digest: ePiYRCfNtbYalqGLkP8lNzrVXAAn52VnbD+FRebvY7Q=
+
